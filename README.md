@@ -20,7 +20,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1.  git create `<project-name>`
 1.  git new
 1.  git new `<project-name>`
-1.  **git init ✔ ️**
+1.  **git init ✔️ ️**
 
 ---
 
