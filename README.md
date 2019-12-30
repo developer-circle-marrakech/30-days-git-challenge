@@ -29,4 +29,15 @@ Here you will found a daily challenge questions and responses (next day) as log:
 **Q : True or False: The git status command shows the status of the integrated repository test suite.**
 
 1.  true
-1.  false
+1.  **false ✔️ ️**
+
+---
+
+### Day 04 :
+
+**Q : Which command would you run to stage the changes in the `js/app.js` file?**
+
+1.  git add `js/app.js`
+1.  git stage `js/app.js`
+1.  git commit `js/app.js`
+1.  git commit `js/app.js` --to-staging-area
