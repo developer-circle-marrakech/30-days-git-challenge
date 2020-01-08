@@ -37,7 +37,26 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 **Q : Which command would you run to stage the changes in the `js/app.js` file?**
 
-1.  git add `js/app.js`
+1.  **git add `js/app.js` ✔️ ️**
 1.  git stage `js/app.js`
 1.  git commit `js/app.js`
 1.  git commit `js/app.js` --to-staging-area
+
+---
+
+### Day 05 :
+
+**Q : Write the basic command used to create a commit from the staged changes (don't include any flags).**
+
+**git commit ✔️ ️**
+
+---
+
+### Day 06 :
+
+**Q : What is the name of the file used to tell Git to ignore certain files?**
+
+1.  gitignore
+1.  .gitignore
+1.  ignore.git
+1.  ignore
