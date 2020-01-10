@@ -57,6 +57,28 @@ Here you will found a daily challenge questions and responses (next day) as log:
 **Q : What is the name of the file used to tell Git to ignore certain files?**
 
 1.  gitignore
-1.  .gitignore
+1.  **.gitignore ✔️ ️**
 1.  ignore.git
 1.  ignore
+
+---
+
+### Day 07 :
+
+**Q : What command do you run to view the commit history of your repositor?**
+
+1.  git history
+1.  **git log ✔️ ️**
+1.  git commit -h
+1.  git past
+
+---
+
+### Day 08 :
+
+**Q : To create a branch, you run `git branch` . How can you create a branch and switch to it in one command?**
+
+1.  git branch --switch `<branch-name>`
+1.  git branch --checkout `<branch-name>`
+1.  git checkout -b `<branch-name>`
+1.  git checkout --create-branch `<branch-name>`
