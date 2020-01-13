@@ -80,5 +80,35 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1.  git branch --switch `<branch-name>`
 1.  git branch --checkout `<branch-name>`
-1.  git checkout -b `<branch-name>`
+1.  **git checkout -b `<branch-name>` ✔️ ️**
 1.  git checkout --create-branch `<branch-name>`
+
+---
+
+### Day 09 :
+
+**Q : Write the command that would merge the awesome_feature branch with the master branch, assuming you are on the master branch.**
+
+**git merge awesome_feature ✔️ ️**
+
+---
+
+### Day 10 :
+
+**Q : Which command will add a remote branch to the repository?**
+
+1.  **git remote add `<name>` `<url>`✔️ ️**
+1.  git branch --remote `<name>` `<url>`
+1.  git remote new `<name>` `<url>`
+1.  git branch `<name>` `<url>`
+
+---
+
+### Day 11 :
+
+**Q : Assuming your repo has a remote called production, what command would send all local committed changes on the master branch to that remote?**
+
+1.  git send master production
+1.  git send production master
+1.  git push master production
+1.  git push production master
