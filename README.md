@@ -111,4 +111,33 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1.  git send master production
 1.  git send production master
 1.  git push master production
-1.  git push production master
+1.  **git push production master ✔**
+
+---
+
+### Day 12 :
+
+**Q : Write the command that would remove the latest stash from the stash list and apply it to the staging area.**
+
+**git stash pop ✔**
+
+---
+
+### Day 13 :
+
+**Q : What command would create the `c` alias for the `commit` command (at the global, or user, level)?**
+
+1.  **git config --global alias.c commit ✔**
+1.  git config --global alias.commit c
+1.  git config alias.c commit
+1.  git config alias.commit c
+
+---
+
+### Day 14 :
+
+**Q : Write the command that will display the diff of the README file, comparing the version in the staging area with the latest committed version.**
+
+<!-- git diff --staged README -->
+
+---
