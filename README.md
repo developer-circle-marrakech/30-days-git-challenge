@@ -138,6 +138,200 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 **Q : Write the command that will display the diff of the README file, comparing the version in the staging area with the latest committed version.**
 
-<!-- git diff --staged README -->
+**git diff --staged README ✔**
 
 ---
+
+### Day 15 :
+
+**Q : What is the purpose of `git filter-branch`?**
+
+1. To perform a text search inside a particular set of branches
+1. To rewrite history by applying some operation to all commits
+1. To list all local branches except the ones filtered out by some predicate
+1. To perform garbage collection on a single branch
+
+<!-- To rewrite history by applying some operation to all commits -->
+
+---
+
+### Day 16 :
+
+**Q : Where does Git look for its subprograms (git-commit, git-diff)?**
+
+1. PATH environment variable
+1. git.binaries global config
+1. GIT_EXEC_PATH environment variable
+1. the directory where git itself is located
+
+## <!-- GIT_EXEC_PATH environment variable -->
+
+### Day 17 :
+
+**Q : `git describe` looks for the nearest \_\_\_ reachable from the commit**
+
+1. remote
+1. author
+1. tag
+1. branch
+
+<!-- tag -->
+
+---
+
+### Day 18 :
+
+**Q : What does a `" "` sign at the beginning of a refspec mean?**
+
+1. That there is a one-to-many mapping between refs
+1. That the remote branch may not exist
+1. That overwriting (non-fast-forward) updates are allowed
+1. That authentication will be required
+
+## <!-- That overwriting (non-fast-forward) updates are allowed -->
+
+### Day 19 :
+
+**Q :"Sparse checkout" allows you to**
+
+1. check out only some files from the repository into your working copy
+1. check out a branch from the repository without some of its commits
+1. init only the main submodule of the repository
+1. clone a remote such that you get a working copy but no repository (no .git folder)
+
+<!-- check out only some files from the repository into your working copy -->
+
+---
+
+### Day 20 :
+
+**Q : Git-attributes filters are used for... **
+
+1. transforming how the repository is presented in `git status` and `git log`
+1. applying text substitutions inside commits received from remotes
+1. applying text substitutions on commit/checkout
+1. ignoring files based on metadata
+
+<!-- applying text substitutions on commit/checkout -->
+
+---
+
+### Day 21 :
+
+**Q : A bare Git respository...**
+
+1. has no remotes
+1. has .git directory in a separate location from its working tree
+1. has an empty working tree
+1. has contents of .git directory instead of a working tree
+
+## <!-- has contents of .git directory instead of a working tree -->
+
+### Day 22 :
+
+**Q : What does a commit range `branch1..branch2` mean?**
+
+1. All commits that contain files changed between commits at branch1 and branch2
+1. All commits reachable from branch2, but not reachable from branch1
+1. All commits reachable from branch1, but not reachable from branch2
+1. All commits created in the period between commits at branch1 and branch2
+
+<!-- All commits reachable from branch2, but not reachable from branch1 -->
+
+---
+
+### Day 23 :
+
+**Q : Git reflog is used to...**
+
+1. synchronize with remote-tracking branches
+1. track authors of changes
+1. store the history of updates of refs
+1. store the history of merge conflicts
+
+<!-- store the history of updates of refs -->
+
+---
+
+### Day 24 :
+
+**Q :A Git tree object..**
+
+1. can contain references to other tree objects or blobs
+1. can only contain references to blobs
+1. can contain file data or references to other tree objects or blobs
+1. can only contain references to other tree objects
+
+<!-- can contain references to other tree objects or blobs -->
+
+---
+
+### Day 25 :
+
+**Q : When should you NOT run `git gc`?**
+
+1. In a sparse working tree
+1. When working in someone else's branch
+1. When you have orphaned objects you want to restore
+1. When you plan to push to a remote
+
+## <!-- When you have orphaned objects you want to restore -->
+
+### Day 26 :
+
+**Q : If you're cloning a repository that contains submodules, they will be initialized...**
+
+1. only after `git submodule init` and `git submodule update`
+1. after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument
+1. only if you clone with `--recursive` argument
+1. only if you clone with `--submodules` argument
+
+## <!-- after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument -->
+
+### Day 27 :
+
+**Q :Where is a branch stored inside a Git repository?**
+
+1. Inside either .git/branches file or .git/packed-refs file
+1. Inside .git/refs directory
+1. Inside .git/packed-refs file
+1. Inside either .git/refs directory or .git/packed-refs file
+
+<!-- Inside either .git/refs directory or .git/packed-refs file -->
+
+---
+
+### Day 28 :
+
+**Q : What files can be searched in using `git grep`?**
+
+1. Current working tree and remote working tree
+1. Current working tree
+1. Any files on the computer
+1. Any local Git trees
+
+<!-- Any local Git trees -->
+
+---
+
+### Day 29 :
+
+**Q :What can't be cryptographically signed in Git?**
+
+1. Branches
+1. Tags
+1. Merge commits
+1. Regular commits
+
+## <!-- Branches -->
+
+### Day 30 :
+
+**Q : Which of the following is not a valid option for `credential.helper` setting?**
+
+1. cache
+1. temporary
+1. store
+1. no value (default)
+
+## <!-- temporary -->
