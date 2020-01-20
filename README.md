@@ -147,7 +147,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 **Q : What is the purpose of `git filter-branch`?**
 
 1. To perform a text search inside a particular set of branches
-1. To rewrite history by applying some operation to all commits
+1. **To rewrite history by applying some operation to all commits ✔**
 1. To list all local branches except the ones filtered out by some predicate
 1. To perform garbage collection on a single branch
 
@@ -161,7 +161,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1. PATH environment variable
 1. git.binaries global config
-1. GIT_EXEC_PATH environment variable
+1. **GIT_EXEC_PATH environment variable ✔**
 1. the directory where git itself is located
 
 ## <!-- GIT_EXEC_PATH environment variable -->
@@ -172,7 +172,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1. remote
 1. author
-1. tag
+1. **tag ✔**
 1. branch
 
 <!-- tag -->
@@ -286,7 +286,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. only if you clone with `--recursive` argument
 1. only if you clone with `--submodules` argument
 
-## <!-- after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument -->
+ <!-- after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument -->
 
 ### Day 27 :
 
