@@ -151,8 +151,6 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. To list all local branches except the ones filtered out by some predicate
 1. To perform garbage collection on a single branch
 
-<!-- To rewrite history by applying some operation to all commits -->
-
 ---
 
 ### Day 16 :
@@ -164,8 +162,6 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. **GIT_EXEC_PATH environment variable ✔️**
 1. the directory where git itself is located
 
-## <!-- GIT_EXEC_PATH environment variable -->
-
 ### Day 17 :
 
 **Q : `git describe` looks for the nearest \_\_\_ reachable from the commit**
@@ -175,8 +171,6 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. **tag ✔️**
 1. branch
 
-<!-- tag -->
-
 ---
 
 ### Day 18 :
@@ -185,21 +179,19 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1. That there is a one-to-many mapping between refs
 1. That the remote branch may not exist
-1. **That overwriting (non-fast-forward) updates are allowed✔ ️**
+1. **That overwriting (non-fast-forward) updates are allowed ✔️ ️**
 1. That authentication will be required
 
-## <!-- That overwriting (non-fast-forward) updates are allowed -->
+---
 
 ### Day 19 :
 
 **Q :"Sparse checkout" allows you to**
 
-1. check out only some files from the repository into your working copy
+1. **check out only some files from the repository into your working copy ✔️ ️**
 1. check out a branch from the repository without some of its commits
 1. init only the main submodule of the repository
 1. clone a remote such that you get a working copy but no repository (no .git folder)
-
-<!-- check out only some files from the repository into your working copy -->
 
 ---
 
@@ -209,10 +201,8 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1. transforming how the repository is presented in `git status` and `git log`
 1. applying text substitutions inside commits received from remotes
-1. applying text substitutions on commit/checkout
+1. **applying text substitutions on commit/checkout ✔️ ️**
 1. ignoring files based on metadata
-
-<!-- applying text substitutions on commit/checkout -->
 
 ---
 
@@ -223,20 +213,16 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. has no remotes
 1. has .git directory in a separate location from its working tree
 1. has an empty working tree
-1. has contents of .git directory instead of a working tree
-
-## <!-- has contents of .git directory instead of a working tree -->
+1. **has contents of .git directory instead of a working tree ✔️ ️**
 
 ### Day 22 :
 
 **Q : What does a commit range `branch1..branch2` mean?**
 
 1. All commits that contain files changed between commits at branch1 and branch2
-1. All commits reachable from branch2, but not reachable from branch1
+1. **All commits reachable from branch2, but not reachable from branch1 ✔️ ️**
 1. All commits reachable from branch1, but not reachable from branch2
 1. All commits created in the period between commits at branch1 and branch2
-
-<!-- All commits reachable from branch2, but not reachable from branch1 -->
 
 ---
 
@@ -246,10 +232,8 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1. synchronize with remote-tracking branches
 1. track authors of changes
-1. store the history of updates of refs
+1. **store the history of updates of refs ✔️ ️**
 1. store the history of merge conflicts
-
-<!-- store the history of updates of refs -->
 
 ---
 
@@ -257,12 +241,10 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 **Q :A Git tree object..**
 
-1. can contain references to other tree objects or blobs
+1. **can contain references to other tree objects or blobs ✔️ ️**
 1. can only contain references to blobs
 1. can contain file data or references to other tree objects or blobs
 1. can only contain references to other tree objects
-
-<!-- can contain references to other tree objects or blobs -->
 
 ---
 
@@ -276,6 +258,8 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. When you plan to push to a remote
 
 ## <!-- When you have orphaned objects you want to restore -->
+
+---
 
 ### Day 26 :
 
