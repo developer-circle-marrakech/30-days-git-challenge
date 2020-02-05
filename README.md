@@ -254,10 +254,8 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 1. In a sparse working tree
 1. When working in someone else's branch
-1. When you have orphaned objects you want to restore
+1. **When you have orphaned objects you want to restore ✔️ ️**
 1. When you plan to push to a remote
-
-## <!-- When you have orphaned objects you want to restore -->
 
 ---
 
@@ -266,11 +264,11 @@ Here you will found a daily challenge questions and responses (next day) as log:
 **Q : If you're cloning a repository that contains submodules, they will be initialized...**
 
 1. only after `git submodule init` and `git submodule update`
-1. after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument
+1. **after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument ✔️ ️**
 1. only if you clone with `--recursive` argument
 1. only if you clone with `--submodules` argument
 
- <!-- after `git submodule init` and `git submodule update`or if you clone with `--recursive` argument -->
+---
 
 ### Day 27 :
 
@@ -279,9 +277,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. Inside either .git/branches file or .git/packed-refs file
 1. Inside .git/refs directory
 1. Inside .git/packed-refs file
-1. Inside either .git/refs directory or .git/packed-refs file
-
-<!-- Inside either .git/refs directory or .git/packed-refs file -->
+1. **Inside either .git/refs directory or .git/packed-refs file ✔️ ️**
 
 ---
 
@@ -292,9 +288,7 @@ Here you will found a daily challenge questions and responses (next day) as log:
 1. Current working tree and remote working tree
 1. Current working tree
 1. Any files on the computer
-1. Any local Git trees
-
-<!-- Any local Git trees -->
+1. **Any local Git trees ✔️ ️**
 
 ---
 
@@ -302,20 +296,18 @@ Here you will found a daily challenge questions and responses (next day) as log:
 
 **Q :What can't be cryptographically signed in Git?**
 
-1. Branches
+1. **Branches ✔️ ️**
 1. Tags
 1. Merge commits
 1. Regular commits
 
-## <!-- Branches -->
+---
 
 ### Day 30 :
 
 **Q : Which of the following is not a valid option for `credential.helper` setting?**
 
 1. cache
-1. temporary
+1. **temporary ✔️ ️**
 1. store
 1. no value (default)
-
-## <!-- temporary -->
